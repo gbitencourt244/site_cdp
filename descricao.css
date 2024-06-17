@@ -1,0 +1,72 @@
+
+  #container {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  
+  #carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  #carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.90) 0px 30px 50px, rgba(0,0,0,0.60) 0px 10px 20px;
+    display: flex;
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("imagens/Captura\ de\ tela\ pingente.png");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("imagens/Captura\ de\ tela\ corente777.png");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("imagens/Captura\ de\ tela\ anel.png");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("imagens/Captura\ de\ tela\ 2024-03-28\ 212155.png");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("imagens/Captura\ de\ tela\ 2024-03-26\ 210242.png");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("imagens/Captura\ de\ tecaixas.png");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("imagens/limpa\ pratas.png");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("imagens/Captura\ de\ tela\ corente777.png");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("imagens/Captura\ de\ tela\ pingente.png");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  

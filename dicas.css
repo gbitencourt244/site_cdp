@@ -1,0 +1,37 @@
+.card{
+    box-shadow: rgba(0,0,0,0.90) 0px 30px 50px, rgba(0,0,0,0.60) 0px 10px 20px;
+    margin-top: 50px; 
+    border-radius: 20px; 
+    width: 250px; 
+    background-color: black;
+
+}
+
+.card-img{
+    width: 250px;
+    border-radius: 20px;
+}
+#title{
+    text-shadow: rgba(0,0,0,0.90) 0px 30px 50px, rgba(0,0,0,0.60) 0px 10px 20px;
+    font-family: fantasy; 
+    text-align: center; 
+    margin-top: 50px; 
+    color: white;
+}
+#sub-title{
+    text-shadow: rgba(0,0,0,0.90) 0px 30px 50px, rgba(0,0,0,0.60) 0px 10px 20px;
+    font-family: fantasy; 
+    text-align: center; 
+    color: white;
+}
+#box-video{
+    padding-top: 30px; 
+    margin-top: 40px;
+    padding-bottom: 30px;
+    box-shadow: rgba(0,0,0,0.90) 0px 30px 50px, rgba(0,0,0,0.60) 0px 10px 20px;
+}
+
+
+
+
+
